@@ -4,9 +4,32 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+@font-face {
+	font-family: 'PeydaMedium';
+	src: url(/src/assets/fonts/Peyda-Medium.ttf);
+}
+
+@font-face {
+	font-family: 'PeydaBold';
+	src: url(/src/assets/fonts/Peyda-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'PeydaRegular';
+	src: url(/src/assets/fonts/Peyda-Regular.ttf);
+}
+
+@font-face {
+	font-family: "PeydaLight";
+	src: url(/src/assets/fonts/peyda-light.ttf);
+}
+
+
 @layer base {
 	html {
-		font-family: 'DM Sans', sans-serif !important;
+		font-family: "PeydaLight", sans-serif !important;
 		font-feature-settings: 'kern' !important;
 		-webkit-font-smoothing: antialiased;
 		letter-spacing: -0.5px;
@@ -14,16 +37,16 @@
 }
 
 input.defaultCheckbox::before {
-	content: url(../src/assets/svg/checked.svg); 
+	content: url(../src/assets/svg/checked.svg);
 	color: white;
-	opacity: 0; 
-	height: 16px; 
+	opacity: 0;
+	height: 16px;
 	width: 16px;
-	position: absolute; 
+	position: absolute;
 	left: 50%;
 	transform: translate(-50%, 0px);
-} 
+}
 
-input:checked.defaultCheckbox::before { 
+input:checked.defaultCheckbox::before {
 	opacity: 1;
 }

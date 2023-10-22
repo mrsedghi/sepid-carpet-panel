@@ -3,7 +3,7 @@ const Footer = () => {
     <div className="flex w-full flex-col items-center justify-between px-1 pb-8 pt-3 lg:px-8 xl:flex-row">
       <h5 className="mb-4 text-center text-sm font-medium text-gray-600 sm:!mb-0 md:text-lg">
         <p className="mb-4 text-center text-sm text-gray-600 sm:!mb-0 md:text-base">
-          ©{1900 + new Date().getYear()} Horizon UI. All Rights Reserved.
+          ©{1900 + new Date().getYear()} تمامی حقوق برای سپید محفوظ است.
         </p>
       </h5>
       <div>
@@ -14,7 +14,7 @@ const Footer = () => {
               href="mailto:hello@simmmple.com"
               className="text-base font-medium text-gray-600 hover:text-gray-600"
             >
-              Support
+              پشتیبانی
             </a>
           </li>
           <li>
@@ -23,7 +23,7 @@ const Footer = () => {
               href="https://simmmple.com/licenses"
               className="text-base font-medium text-gray-600 hover:text-gray-600"
             >
-              License
+              درباه ما
             </a>
           </li>
           <li>
@@ -32,7 +32,7 @@ const Footer = () => {
               href="https://simmmple.com/terms-of-service"
               className="text-base font-medium text-gray-600 hover:text-gray-600"
             >
-              Terms of Use
+              قوانین
             </a>
           </li>
           <li>
@@ -41,7 +41,7 @@ const Footer = () => {
               href="https://blog.horizon-ui.com/"
               className="text-base font-medium text-gray-600 hover:text-gray-600"
             >
-              Blog
+              بلاگ
             </a>
           </li>
         </ul>

@@ -21,7 +21,7 @@ export default function RTL(props) {
   }, [location.pathname]);
 
   const getActiveRoute = (routes) => {
-    let activeRoute = "RTL";
+    let activeRoute = "user";
     for (let i = 0; i < routes.length; i++) {
       if (
         window.location.href.indexOf(
@@ -46,7 +46,7 @@ export default function RTL(props) {
   };
   const getRoutes = (routes) => {
     return routes.map((prop, key) => {
-      if (prop.layout === "/rtl") {
+      if (prop.layout === "/user") {
         return (
           <Route path={`/${prop.path}`} element={prop.component} key={key} />
         );
@@ -81,7 +81,7 @@ export default function RTL(props) {
 
                 <Route
                   path="/"
-                  element={<Navigate to="/admin/default" replace />}
+                  element={<Navigate to="/user/main" replace />}
                 />
               </Routes>
             </div>

@@ -106,8 +106,8 @@ module.exports = {
         "99p": "99%",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-        dm: ["DM Sans", "sans-serif"],
+        poppins: ["PeydaLight", "sans-serif"],
+        dm: ["PeydaLight", "sans-serif"],
       },
       boxShadow: {
         "3xl": "14px 17px 40px 4px",
