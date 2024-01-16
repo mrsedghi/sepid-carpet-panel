@@ -28,14 +28,15 @@ npm start
 ```
 Development and Contribution
 
- • To contribute to the project, fork it and submit a Pull Request.
- • Report bugs or suggest new ideas through the issue tracker.
+ - To contribute to the project, fork it and submit a Pull Request.
+ - Report bugs or suggest new ideas through the issue tracker.
 
 Contact Information
 
- • Developer Name: Mohammadreza Sedghi 
- • Email: m.r.sedghii@gmail.com
+- Developer Name: Mohammadreza Sedghi 
+ - Email: m.r.sedghii@gmail.com
 
 
 © 2024 Sepide Carpet Cleaning Management Panel. All rights reserved.
+
 Coming Soon..
