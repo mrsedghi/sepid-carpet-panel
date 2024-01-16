@@ -17,15 +17,15 @@ This project is a management panel for the Sepideh Carpet Cleaning system, devel
 ```bash
 git clone https://github.com/mrsedghi/sepid-carpet-panel.git
 cd repo
-
+```
  2. Install dependencies:
-
+```bash
 npm install
-
+```
  3. Run the project:
-
+```bash
 npm start
-
+```
 Development and Contribution
 
  • To contribute to the project, fork it and submit a Pull Request.
