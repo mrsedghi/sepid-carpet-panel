@@ -1,4 +1,4 @@
-# Sepide Carpet Cleaning Management Panel with React
+# Sepid Carpet Cleaning Management Panel with React
 
 This project is a management panel for the Sepideh Carpet Cleaning system, developed using the React framework.
 
